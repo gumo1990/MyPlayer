@@ -6,8 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.myplayer.SplashActivity">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/vp_splash"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/niuben_splash" />
 </RelativeLayout>
