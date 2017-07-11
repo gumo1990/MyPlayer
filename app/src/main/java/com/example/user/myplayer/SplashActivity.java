@@ -63,9 +63,9 @@ public class SplashActivity extends AppCompatActivity {
         boolean isGuideShow = PrefUtils.getBoolean(this, "is_guide_show", false);
         Intent intent = new Intent();
         if (isGuideShow) {
-            intent.setClass(this, GuideActivity.class);
-        } else {
             intent.setClass(this, MainActivity.class);
+        } else {
+            intent.setClass(this, GuideActivity.class);
         }
         startActivity(intent);
         finish();

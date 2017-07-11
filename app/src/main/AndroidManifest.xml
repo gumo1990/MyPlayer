@@ -34,6 +34,34 @@
             android:hardwareAccelerated="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustNothing" />
+        <!--推荐-->
+        <activity
+            android:name=".TuijianAcitity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <!--动态-->
+        <activity
+            android:name=".ZhongJiangActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <!--资讯-->
+        <activity
+            android:name=".ZiXunActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <!--我的-->
+        <activity
+            android:name=".MyAcitity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
     </application>
 
 </manifest>

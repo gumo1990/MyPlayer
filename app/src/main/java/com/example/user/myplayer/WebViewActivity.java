@@ -2,8 +2,6 @@ package com.example.user.myplayer;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -13,6 +11,7 @@ import android.webkit.WebViewClient;
 
 public class WebViewActivity extends Activity {
     WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,10 +25,10 @@ public class WebViewActivity extends Activity {
 
     }
 
-    private void initData(){
-        webView.loadUrl("http://www.baidu.com/");
+    private void initData() {
+        webView.loadUrl("http://v1c7354268.51mypc.cn/KuaiSan/001.html");
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.setWebViewClient(new WebViewClient(){
+        webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 view.loadUrl(url);
