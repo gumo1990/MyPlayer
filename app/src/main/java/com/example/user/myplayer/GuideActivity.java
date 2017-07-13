@@ -30,6 +30,7 @@ import Utils.PrefUtils;
 
 public class GuideActivity extends Activity implements ViewPager.OnPageChangeListener {
 
+
     private ViewPager mViewPager;
     private Button btnstart;//开始体验
     private int[] mImageIds = new int[]{R.mipmap.guide_1, R.mipmap.guide_2, R.mipmap.guide_3};
